@@ -13,6 +13,7 @@
 		633BADED2817E88F0076FC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BADEB2817E88F0076FC94 /* Main.storyboard */; };
 		633BADEF2817E8930076FC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633BADEE2817E8930076FC94 /* Assets.xcassets */; };
 		633BADF22817E8930076FC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BADF02817E8930076FC94 /* LaunchScreen.storyboard */; };
+		633BADFB2817FB6F0076FC94 /* FLEX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633BADFA2817FB6F0076FC94 /* FLEX.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		633BADEE2817E8930076FC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		633BADF12817E8930076FC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633BADF32817E8930076FC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633BADFA2817FB6F0076FC94 /* FLEX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FLEX.xcframework; path = Carthage/Build/FLEX.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633BADFB2817FB6F0076FC94 /* FLEX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				633BADE42817E88F0076FC94 /* GithubActions */,
 				633BADE32817E88F0076FC94 /* Products */,
+				633BADF92817FB6F0076FC94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				633BADF32817E8930076FC94 /* Info.plist */,
 			);
 			path = GithubActions;
+			sourceTree = "<group>";
+		};
+		633BADF92817FB6F0076FC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633BADFA2817FB6F0076FC94 /* FLEX.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
